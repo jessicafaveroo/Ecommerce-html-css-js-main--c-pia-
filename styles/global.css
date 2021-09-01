@@ -120,6 +120,12 @@ button.branco, .button.branco{
     border: 0.2rem solid var(--green-dark);
 }
 
+button.grey,
+.button.grey{
+    background: var(--grey);
+    color: var(--green-dark);
+
+}
 
 /* ------------ header ---------*/
 
