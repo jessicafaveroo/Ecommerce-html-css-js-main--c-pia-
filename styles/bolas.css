@@ -1,0 +1,223 @@
+ 
+
+.content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;;
+    grid-template-rows: 1fr 1fr;
+    height: 86.8rem;
+
+    grid-template-areas: 
+    "left center right"
+    "left2 center2 right2"
+    ;
+}
+.content button,.content.button{
+    padding: 1rem;
+}
+
+
+.prod1{
+    
+    grid-area: left;
+    display: flex;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up1"
+   "down1"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black;
+    
+}
+
+
+.prod11{
+    display: flex;
+    grid-area: up1;
+    background: url("/img/Cópia\ de\ _MG_4710.jpg") no-repeat top/contain ;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.prod12{
+    
+    grid-area: down1;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+
+.prod2{
+    grid-area: center;
+    display: flex;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up2"
+   "down2"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black
+    
+}
+
+.prod21{
+    display: flex;
+    grid-area: up2;
+    background: url("/img/Cópia\ de\ _MG_4718.jpg") no-repeat top/contain ;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.prod22{
+    
+    grid-area: down2;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.prod3{
+    grid-area: right;
+    display: flex;
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up3"
+   "down3"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black
+}
+
+.prod31{
+    display: flex;
+    grid-area: up3;
+    background: url("/img/DeltaHybrid.jpg") no-repeat top/contain ;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.prod32{
+    
+    grid-area: down3;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.prod4{
+    grid-area: left2;
+    display: flex;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up4"
+   "down4"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black
+    
+}
+
+.prod41{
+    
+    grid-area: up4;
+    display: flex;
+    background: url("/img/GammaPro.jpeg") no-repeat top/contain;
+    height: 20rem;
+    border-radius: 0.5rem;
+    
+}
+
+.prod42{
+    
+    grid-area: down4;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.prod5{
+    grid-area: center2;
+    display: flex;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up"
+   "down"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black
+}
+
+.prod51{
+    display: flex;
+    grid-area: up;
+    background: url("/img/GeneticPro.jpg") no-repeat top/contain ;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.prod52{
+    
+    grid-area: down;
+    justify-content: center;
+    margin-left: 1rem;
+}
+.prod6{
+    grid-area: right2;
+    display: flex;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 1fr;
+
+    grid-template-areas: 
+   "up"
+   "down"
+   ;
+
+    align-items: center;
+    border-radius:2px solid black
+}
+
+.prod61{
+    display: flex;
+    grid-area: up;
+    background: ("/img/9.1Confort.jpg") no-repeat top/contain ;
+    height: 20rem;
+    border-radius: 0.5rem;
+}
+
+.prod62{
+    
+    grid-area: down;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#content .button{
+    display: flex;
+}
+
+
+

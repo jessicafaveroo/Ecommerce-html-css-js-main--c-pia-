@@ -1,0 +1,68 @@
+.content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 45rem 1fr;
+
+    grid-template-areas: 
+    
+    "left right" 
+}
+
+
+.cadastro{
+    grid-area: left;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    grid-area: right;
+    display: flex;
+    align-items: center;
+}
+
+main .container, .cadastro{
+    width: min(30rem, 100%);
+    
+}
+
+main h2, .cadastro h2{
+    font-size:clamp(20px,5xw,2.8rem);
+    margin-bottom:2rem;
+    margin-top: 1rem;
+}
+
+
+
+input{
+    border:0.2rem solid var(--grey);
+    padding: 0 1.6rem;
+
+}
+
+.content .branco{
+    padding:0rem 9.8rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 11.9rem;
+    margin-top: 0.5rem
+}
+
+button {
+    text-decoration: none;
+}
+
+.conteudo{
+background-color: var(--green);
+}
+.conteudo a:hover{
+    background:var(--white )
+}
+
