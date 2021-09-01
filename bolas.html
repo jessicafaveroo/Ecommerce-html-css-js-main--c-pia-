@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/bolas.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel= "icon" href="/img/sloganESSEEEEE.png">
     <script src="/scripts/botaocompra.js"></script>
     <meta charset="UTF-8">
@@ -67,29 +68,39 @@
                 
             </div>
             <div class= "prod12">
-             <p>Bola</p>
-             <h3>Wilson 2</h3>
-             <h4>36,5 R$</h4><br>
-             <button type="Submit" onclick="comprar()">Comprar</button>
+                <p>Bola</p>
+                <h3>Wilson 2</h3>
+                <h4>36,5 R$</h4><br>
+                <button type="Submit" onclick="ativar()">Comprar</button>
             </div>
-         </div>
-         
-     
-         <div class="prod2" >
-             <div class="prod21">
-                 
-             </div>
-             <div class= "prod22">
-              <p>Bola</p>
-              <h3>Head Pro</h3>
-              <h4>25R$</h4><br>
-              <button type="Submit" onclick="comprar()">Comprar</button>
-             </div>
-          </div>
-     
-
-             
         </div>
+
+        <div class="prod2" >
+            <div class="prod21">    
+            </div>
+            <div class= "prod22">
+            <p>Bola</p>
+            <h3>Head Pro</h3>
+            <h4>25R$</h4><br>
+            <button type="Submit" onclick="ativar()">Comprar</button>
+            </div>
+        </div>
+        
+        <!----------------------  Modal -------------------------------->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h3>Comprar Item?</h3>
+            <div class="imagem">
+                <img src="img/9.1Confort.jpg" alt="Foto de uma raquete">
+            </div><br>
+            <p>250,00 R$</p><br>
+            <div class="buttons">
+                
+                <div class="button grey" onclick="desativar()">Voltar</div>
+                <button onclick=""> Comprar </button>
+            </div>
+        </div>
+    </div>
 
         
         <div class="footer1">
@@ -102,5 +113,5 @@
 
     </div>
 
-    
+    <script src="scripts/modal.js"></script>
 </body>

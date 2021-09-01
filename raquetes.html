@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/raquetes.css">
+    <link rel="stylesheet" href="styles/modal.css">
     <link rel= "icon" href="/img/sloganESSEEEEE.png">
     <script src="/scripts/botaocompra.js"></script>
     <meta charset="UTF-8">
@@ -20,8 +21,7 @@
         </header>
             
         <div class = "buscador">
-            <button type="submit" >Buscador </button>
-               
+            <button type="submit" >Buscador </button>  
         </div>
     
         <div class= "login" >
@@ -71,7 +71,7 @@
                 <p>Raquete</p>
                 <h3>Vairo 9.1 Confort</h3>
                 <h4>250R$</h4><br>
-                <button type="Submit" onclick="comprar()">Comprar</button>
+                <button type="Submit" onclick="ativar()">Comprar</button>
                </div>
             </div>
             
@@ -84,7 +84,7 @@
                  <p>Raquete</p>
                  <h3>Alpha Pro</h3>
                  <h4>350R$</h4><br>
-                 <button type="Submit" onclick="comprar()">Comprar</button>
+                 <button type="Submit" onclick="ativar()">Comprar</button>
                 </div>
              </div>
 
@@ -96,7 +96,7 @@
                  <p>Raquete</p>
                  <h3>Delta Hibrid</h3>
                  <h4>275R$</h4><br>
-                 <button type="Submit" onclick="comprar()">Comprar</button>
+                 <button type="Submit" onclick="ativar()">Comprar</button>
                 </div>
              </div>
 
@@ -108,7 +108,7 @@
                  <p>Raquete</p>
                  <h3>Gama Pro</h3>
                  <h4>300R$</h4><br>
-                 <button type="Submit" onclick="comprar()">Comprar</button>
+                 <button type="Submit" onclick="ativar()">Comprar</button>
                 </div>
              </div>
 
@@ -117,15 +117,29 @@
                     
                 </div>
                 <div class= "prod52">
-                 <p>Raquete</p>
-                 <h3>Genetic Pro</h3>
-                 <h4>400R$</h4><br>
-                 <button type="Submit" onclick="comprar()">Comprar</button>
+                    <p>Raquete</p>
+                    <h3>Genetic Pro</h3>
+                    <h4>400R$</h4><br>
+                    <button type="Submit" onclick="ativar()">Comprar</button>
                 </div>
-             </div>
+            </div>
 
              
-
+        <!----------------------  Modal -------------------------------->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h3>Comprar Item?</h3>
+            <div class="imagem">
+                <img src="img/9.1Confort.jpg" alt="Foto de uma raquete">
+            </div><br>
+            <p>250,00 R$</p><br>
+            <div class="buttons">
+                
+                <div class="button grey" onclick="desativar()">Voltar</div>
+                <button onclick="comprar()"> Comprar </button>
+            </div>
+        </div>
+    </div>
     
 
         </div>
@@ -139,6 +153,6 @@
         </div>
 
     </div>
-
+    <script src="scripts/modal.js"></script>
 </body>
 </html>

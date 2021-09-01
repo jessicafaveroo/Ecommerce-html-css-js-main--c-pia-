@@ -71,7 +71,7 @@
         <p>Camiseta</p>
         <h3>Head Azul</h3>
         <h4>150R$</h4><br>
-        <button type="Submit" onclick="comprar()">Comprar</button>
+        <button onclick= "ativar()" >Comprar</button>
         </div>
     </div>
     
@@ -84,7 +84,7 @@
         <p>Camiseta</p>
         <h3>Cracked Preta</h3>
         <h4>150R$</h4><br>
-        <button type="Submit" onclick="comprar()">Comprar</button>
+        <button type="Submit" onclick="ativar()">Comprar</button>
         </div>
     </div>
 
@@ -96,7 +96,7 @@
         <p>Camiseta</p>
         <h3>Head</h3>
         <h4>275R$</h4><br>
-        <button type="Submit" onclick="comprar()">Comprar</button>
+        <button type="Submit" onclick="ativar()">Comprar</button>
         </div>
     </div>
 
@@ -108,7 +108,7 @@
         <p>Camiseta</p>
         <h3>Navy Recortes II</h3>
         <h4>300R$</h4><br>
-        <button type="Submit" onclick="comprar()">Comprar</button>
+        <button type="Submit" onclick="ativar()">Comprar</button>
         </div>
     </div>
 
@@ -120,22 +120,22 @@
             <p>Camiseta</p>
             <h3>Navy Recortes II Petróleo</h3>
             <h4>400R$</h4><br>
-            <button type="Submit" onclick="comprar()">Comprar</button>
+            <button type="Submit" onclick="ativar()">Comprar</button>
         </div>
     </div>
 
 <!----------------------  Modal -------------------------------->
-    <div class="modal-wrapper ">
+    <div class="modal-wrapper">
         <div class="modal">
             <h3>Comprar Item?</h3>
             <div class="imagem">
-                <img src="img/9.1Confort.jpg" alt="">
+                <img src="img/9.1Confort.jpg" alt="Foto de uma raquete">
             </div><br>
             <p>250,00 R$</p><br>
             <div class="buttons">
                 
-                <div class="button grey">Voltar</div>
-                <button class=> Comprar </button>
+                <div class="button grey" onclick="desativar()">Voltar</div>
+                <button onclick=""> Comprar </button>
             </div>
         </div>
     </div>
@@ -154,6 +154,6 @@
         </div>
 
     </div>
-
+    <script src="scripts/modal.js"></script>
     <script src="scripts/botaocompra.js"></script>
 </body>
